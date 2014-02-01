@@ -14,7 +14,7 @@
   },
   "dependencies": {
     
-    "static-jade-brunch": ">= 1.0 < 1.5",
+    
     "coffee-script": "~1.6",
     "brunch": "~1.7",
 
