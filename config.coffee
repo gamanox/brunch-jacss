@@ -26,13 +26,14 @@ exports.config =
         'js/dontUseMe' : /^app/ # dirty hack for Jade compiling.
 
   plugins:
-    jade:
-      pretty: yes # Adds pretty-indentation whitespaces to output (false by default)
+    
     jade_angular:
       modules_folder: 'partials'
       locals: {}
     coffeescript:
       bare: true
+    #sass:
+    # debug: 'debug'
 
   # Enable or disable minifying of result js / css files.
   # minify: true
